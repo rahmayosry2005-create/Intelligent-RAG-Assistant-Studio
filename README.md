@@ -42,6 +42,7 @@ rag-assistant-project/
 │   └── requirements.txt
 │
 └── requirements.txt
+```
 ---
 ### 📊 Notebooks & Evaluation Pipeline
 
@@ -49,7 +50,6 @@ rag-assistant-project/
 * **Corpus & Data**: The raw PDF files and source documents used for indexing and testing are organized under `backend/data/corpus/`.
 
 ---
-
 ## 👁️ Extended Track: Computer Vision & Multimodal Models
 
 * **Multimodal Integration (BLIP)**: Integrated image-to-text capabilities to process and describe images uploaded alongside text queries.
