@@ -16,24 +16,41 @@ A production-ready Retrieval-Augmented Generation (RAG) system built with a micr
 
 rag-assistant-project/
 │
+
 ├── backend/
+
 │   ├── app/
+
 │   │   ├── api/
+
 │   │   │   └── routes/
+
 │   │   │       ├── query.py
+
 │   │   │       └── upload.py
+
 │   │   ├── core/
+
 │   │   │   └── config.py
+
 │   │   └── services/
+
 │   │       └── retrieval.py
+
 │   ├── data/
+
 │   │   └── corpus/          # Stores uploaded PDF documents
+
 │   ├── main.py
+
 │   └── requirements.txt
 │
 ├── frontend/
+
 │   ├── app.py               # Streamlit UI
+
 │   ├── api_client.py        # HTTP requests handler for backend
+
 │   └── requirements.txt
 │
 └── requirements.txt
