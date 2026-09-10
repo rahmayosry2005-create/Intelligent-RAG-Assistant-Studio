@@ -118,8 +118,6 @@ Create a `.env` file in both the `backend/` and `frontend/` directories based on
 * **CHROMA_PERSIST_DIRECTORY**: Directory path for the persistent vector database *(Default: `backend/data/chroma_db`)*
 ---
 ## 🌟 Key Features
-=======
-### 🌟 Key Features
 
 
 * **Advanced PDF Processing**: Automated text extraction, cleaning, and smart chunking using PyMuPDF and LangChain.
