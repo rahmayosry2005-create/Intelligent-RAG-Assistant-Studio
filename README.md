@@ -14,7 +14,12 @@ A production-ready Retrieval-Augmented Generation (RAG) system built with a micr
 ---
 
 ## 📂 Project Architecture
+<<<<<<< HEAD
 ```
+=======
+
+```text
+>>>>>>> 5c99bf346c7be2a5a5b90121d34c78e9f2a4b54a
 rag-assistant-project/
 │
 ├── notebooks/
@@ -43,14 +48,21 @@ rag-assistant-project/
 └── requirements.txt
 ```
 ---
+<<<<<<< HEAD
 
 ## 📊 Notebooks & Evaluation Pipeline
+=======
+### 📊 Notebooks & Evaluation Pipeline
+>>>>>>> 5c99bf346c7be2a5a5b90121d34c78e9f2a4b54a
 
 * **RAG Pipeline Notebook**: Located at `notebooks/rag_pipeline.ipynb`, this notebook runs top-to-bottom without errors, covering document parsing, chunking strategies, embedding generation, vector store retrieval testing, and a complete evaluation metrics table.
 * **Corpus & Data**: The raw PDF files and source documents used for indexing and testing are organized under `backend/data/corpus/`.
 
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5c99bf346c7be2a5a5b90121d34c78e9f2a4b54a
 ## 👁️ Extended Track: Computer Vision & Multimodal Models
 
 * **Multimodal Integration (BLIP)**: Integrated image-to-text capabilities to process and describe images uploaded alongside text queries.
@@ -59,10 +71,11 @@ rag-assistant-project/
 
 ---
 
-## ⚙️ Setup & Installation Guide
+## 🔐 Environment Variables
 
-Follow these steps to set up and run the RAG Assistant project locally.
+Create a `.env` file in both the `backend/` and `frontend/` directories based on the following configurations:
 
+<<<<<<< HEAD
 ### 1. Prerequisites
 Make sure you have Python (version 3.10 or higher) installed on your system along with pip.
 
@@ -95,10 +108,16 @@ cd rag-assistant-project
    streamlit run app.py
 
 * The user interface will automatically open in your browser at: http://localhost:8501
+=======
+* **OPENAI_API_KEY**: Your OpenAI API key for LLM generation *(Example: `sk-...`)*
+* **API_BASE_URL**: Backend URL used by the frontend client *(Default: `http://localhost:8000`)*
+* **CHROMA_PERSIST_DIRECTORY**: Directory path for the persistent vector database *(Default: `backend/data/chroma_db`)*
+>>>>>>> 5c99bf346c7be2a5a5b90121d34c78e9f2a4b54a
 
 ---
 ## 🔐 Environment Variables
 
+<<<<<<< HEAD
 Create a `.env` file in both the `backend/` and `frontend/` directories based on the following configurations:
 
 * **OPENAI_API_KEY**: Your OpenAI API key for LLM generation *(Example: `sk-...`)*
@@ -106,6 +125,9 @@ Create a `.env` file in both the `backend/` and `frontend/` directories based on
 * **CHROMA_PERSIST_DIRECTORY**: Directory path for the persistent vector database *(Default: `backend/data/chroma_db`)*
 ---
 ## 🌟 Key Features
+=======
+### 🌟 Key Features
+>>>>>>> 5c99bf346c7be2a5a5b90121d34c78e9f2a4b54a
 
 * **Advanced PDF Processing**: Automated text extraction, cleaning, and smart chunking using PyMuPDF and LangChain.
 * **Flexible Querying**: Search across all available knowledge base documents or target a specific file filter.
