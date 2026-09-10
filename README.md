@@ -28,11 +28,13 @@ rag-assistant-project/
 │   │       └── retrieval.py
 │   ├── data/
 │   │   └── corpus/          # Stores uploaded PDF documents
-│   └── main.py
+│   ├── main.py
+│   └── requirements.txt
 │
 ├── frontend/
 │   ├── app.py               # Streamlit UI
-│   └── api_client.py        # HTTP requests handler for backend
+│   ├── api_client.py        # HTTP requests handler for backend
+│   └── requirements.txt
 │
 └── requirements.txt
 
